@@ -2,7 +2,6 @@ package futuapi
 
 import (
 	"context"
-	"crypto/md5"
 
 	"github.com/hurisheng/go-futu-api/pb/trdcommon"
 	"github.com/hurisheng/go-futu-api/pb/trdunlocktrade"
@@ -21,12 +20,7 @@ func (api *FutuAPI) UnlockTrade(ctx context.Context, unlock bool, pwd string, fi
 		},
 	}
 	if pwd != "" {
-		h := md5.New()
-		if _, err := h.Write([]byte(pwd)); err != nil {
-			return err
-		}
-		s := (string)(h.Sum(nil))
-		req.C2S.PwdMD5 = &s
+		req.C2S.PwdMD5 = &pwd
 	}
 	if firm != 0 {
 		req.C2S.SecurityFirm = (*int32)(&firm)

@@ -23,6 +23,7 @@ func (api *FutuAPI) PlaceOrder(ctx context.Context, header *TrdHeader, trdSide t
 			OrderType:          (*int32)(&orderType),
 			Code:               &code,
 			Qty:                &qty,
+			Price:              &price,
 			AdjustPrice:        &adjustPrice,
 			AdjustSideAndLimit: &sideAndLimit,
 			Remark:             &remark,

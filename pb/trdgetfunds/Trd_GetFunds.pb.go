@@ -7,8 +7,8 @@
 package trdgetfunds
 
 import (
-	_ "github.com/hurisheng/go-futu-api/pb/common"
-	trdcommon "github.com/hurisheng/go-futu-api/pb/trdcommon"
+	_ "github.com/Lawrence93Ho/go-futu-api/pb/common"
+	trdcommon "github.com/Lawrence93Ho/go-futu-api/pb/trdcommon"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

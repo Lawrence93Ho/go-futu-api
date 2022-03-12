@@ -1,7 +1,7 @@
 syntax = "proto2";
 package GetGlobalState;
 option java_package = "com.futu.openapi.pb";
-option go_package = "github.com/hurisheng/go-futu-api/pb/getglobalstate";
+option go_package = "github.com/Lawrence93Ho/go-futu-api/pb/getglobalstate";
 
 import "Common.proto";
 import "Qot_Common.proto";

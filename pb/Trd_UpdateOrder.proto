@@ -1,7 +1,7 @@
 syntax = "proto2";
 package Trd_UpdateOrder;
 option java_package = "com.futu.openapi.pb";
-option go_package = "github.com/hurisheng/go-futu-api/pb/trdupdateorder";
+option go_package = "github.com/Lawrence93Ho/go-futu-api/pb/trdupdateorder";
 
 import "Common.proto";
 import "Trd_Common.proto";

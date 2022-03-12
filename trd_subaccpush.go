@@ -3,8 +3,8 @@ package futuapi
 import (
 	"context"
 
-	"github.com/hurisheng/go-futu-api/pb/trdsubaccpush"
-	"github.com/hurisheng/go-futu-api/protocol"
+	"github.com/Lawrence93Ho/go-futu-api/pb/trdsubaccpush"
+	"github.com/Lawrence93Ho/go-futu-api/protocol"
 )
 
 const (

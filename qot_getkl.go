@@ -3,9 +3,9 @@ package futuapi
 import (
 	"context"
 
-	"github.com/hurisheng/go-futu-api/pb/qotcommon"
-	"github.com/hurisheng/go-futu-api/pb/qotgetkl"
-	"github.com/hurisheng/go-futu-api/protocol"
+	"github.com/Lawrence93Ho/go-futu-api/pb/qotcommon"
+	"github.com/Lawrence93Ho/go-futu-api/pb/qotgetkl"
+	"github.com/Lawrence93Ho/go-futu-api/protocol"
 )
 
 const (

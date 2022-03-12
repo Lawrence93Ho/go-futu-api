@@ -1,6 +1,6 @@
 package futuapi
 
-import "github.com/hurisheng/go-futu-api/pb/trdcommon"
+import "github.com/Lawrence93Ho/go-futu-api/pb/trdcommon"
 
 type TrdAcc struct {
 	TrdEnv            trdcommon.TrdEnv       //交易环境，参见 TrdEnv 的枚举定义

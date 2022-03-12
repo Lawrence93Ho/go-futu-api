@@ -7,8 +7,8 @@
 package qotgetplateset
 
 import (
-	_ "github.com/hurisheng/go-futu-api/pb/common"
-	qotcommon "github.com/hurisheng/go-futu-api/pb/qotcommon"
+	_ "github.com/Lawrence93Ho/go-futu-api/pb/common"
+	qotcommon "github.com/Lawrence93Ho/go-futu-api/pb/qotcommon"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

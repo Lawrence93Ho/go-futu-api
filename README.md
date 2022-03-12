@@ -11,7 +11,7 @@
 1. import
 
     ```
-    import "github.com/hurisheng/go-futu-api"
+    import "github.com/Lawrence93Ho/go-futu-api"
     ```
 
 1. 创建API实例
